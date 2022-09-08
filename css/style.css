@@ -1,0 +1,644 @@
+body {
+    height: 6000px;
+}
+
+
+.navbar {
+    background-color: rgb(199, 190, 190);
+    width: 100%;
+    margin: auto;
+    display:flex;
+}
+.header .navbar .navbar-toggler i{
+    color: white !important;
+    background-color:  rgb(199, 190, 190) !important;
+    width:10%;
+
+}
+.navbar a {
+    color: white;
+}
+/*
+.carousel-inner img {
+    width: 100%;
+   
+}
+*/
+.nav-link {
+    padding: 10px;
+    margin: 5px;
+}
+
+.nav-link:hover {
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+}
+
+.navbar-brand:hover {
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+}
+
+.dropdown {
+  padding-bottom: 10px;
+}
+
+i {
+    font-style: italic;
+    color: black !important;
+}
+
+.logo {
+    width: 150px;
+}
+
+/*=====================end navbar=====================*/
+.Home{
+    background-image: url(../img/hero-bg\ \(1\).png);
+    background-size:100% 100%;
+   /* border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;*/
+
+}
+.home{
+    width:80%;
+    padding-top:20%;
+    margin: auto;
+    color:white;
+   
+}
+
+
+
+.homeheader{
+    padding-bottom: 25%;
+}
+
+.btn1{
+    background-color: blue;
+  width: 25%;
+    color:white;
+   margin:40px;
+   margin: 20px;
+   padding:5px;
+   border-radius: 20px;
+ 
+}
+.link-home{
+    color:rgb(155, 155, 248);
+    text-decoration: underline;
+}
+.btn1:hover{
+    background-color: aqua;
+    color:white;
+
+}
+.btn2{
+    background-color: blue;
+  
+    color:white;
+   margin:40px;
+   margin: 20px;
+   padding:5px;
+   border-radius: 20px;
+}
+.btn2:hover{
+    background-color: aqua;
+    color:white;
+}
+
+
+
+
+
+/*======================end home===================*/
+.about {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+
+}
+.icon1 i{
+    color:blue !important;
+    font-size:30px !important;
+    border:2px solid blue;
+    padding:5px;
+    border-radius:  50%;
+}
+.about-header {
+    width: 50%;
+    text-align: center;
+}
+
+.about-header h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+.about img {
+    width: 90%;
+}
+
+.img {
+    background-image: url(../img/about-img.svg);
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url(../img/about-extra-1.svg);
+    background-size: cover;
+}
+
+.about span {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.img4 {
+    background-image: url(../img/about-extra-2.svg);
+    background-size: cover;
+}
+
+/*======================end about======================*/
+
+
+
+
+
+.Services {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+
+
+}
+
+.Services-header {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.Services-header h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Services-header p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Services img {
+    width: 90%;
+}
+
+.img {
+    background-image: url(../img/about-img.svg);
+    background-size: cover;
+}
+
+.Services .box {
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/*==================== end Services ====================*/
+.Choose {
+    background-color: rgb(5, 5, 109);
+}
+
+.choose {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+    background-color: rgb(5, 5, 109);
+    margin-top:15px;
+
+}
+
+.choose-header {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.choose-header h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+.choose-header p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.card {
+    background-color: blue;
+    color: white;
+}
+
+.card-body {
+    text-align: center;
+    background-color: blue;
+}
+
+.card i {
+    font-size: 50px;
+    margin: auto;
+    color: white !important;
+}
+
+.headers {
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.headers h1 {
+    font-size: 60px;
+}
+
+.headers p {
+    font-size: 13px;
+}
+
+/*===============================================*/
+.Portfolio {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    padding-top: 90px;
+
+
+}
+
+.Portfolio-header {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.Portfolio-header h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 10px
+}
+
+button {
+    width: 15%;
+    color: white;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 20px;
+
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.imges {
+   /* border: 1px solid black;*/
+    width: 100%;
+    padding-top: 20px;
+}
+
+/*================================================*/
+.imges img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.imges {
+    width: 100%;
+    margin: auto;
+}
+
+.member2 img {
+
+    overflow: hidden;
+}
+/*
+.member2 i {
+    color: white !important;
+    font-size: 20px;
+}
+*/
+.member2-info {
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50%;
+    color: white;
+    width:100%;
+
+}
+
+.member2 {
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.member2:hover .member2-info {
+    top: 0;
+   
+
+
+}
+
+.member2-info-content h1 {
+    font-size: 35px !important;
+
+}
+
+.member2-info-content p {
+    font-size: 35px !important;
+
+}
+
+
+/*=====================team==========================*/
+.Team {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    padding-top: 90px;
+
+
+}
+
+.Team-header {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.Team-header h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/*=======================*/
+.profiles {
+    width: 80%;
+    margin: auto;
+}
+.member{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.member img {
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+/*
+i {
+    color: white !important;
+    font-size: 20px;
+}*/
+
+.member-info {
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 35%;
+    color: white;
+
+}
+
+.member {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.member:hover .member-info {
+    top: 0;
+    right: 20%;
+    /* background-color: blue;
+    width:100%;
+    height: 100%;*/
+
+}
+
+.member-info-content h1 {
+    font-size: 20px !important;
+
+}
+
+
+/*======================================*/
+.transmation{
+    background-color: blue;
+}
+.containar2{
+    width:80%;
+    padding: 50px 15px;
+
+    margin: auto;
+    background-color:blue;
+    color:white;
+}
+.transmation-header .carousel-inner .carousel-item img{
+    width:100%;
+    border-radius: none !important;
+}
+.carousel-indicators{
+    bottom:-25px;
+}
+
+.carousel-indicators li{
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid rgb(137, 137, 238);
+    opacity: 1;
+}
+.carousel-indicators :active {
+    color:blue;
+    border:2px solid white;
+}
+
+/*================clien===================*/
+.cLients {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.cLients .CLients-header h1 {
+    font-size: 40px;
+
+}
+
+.cLients .CLients-header p {
+    font-size: 20px;
+
+}
+
+.cLients img {
+    width: 75%;
+
+
+}
+
+.cLients .row-client {
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 5px;
+    /* border: 1px solid black;*/
+}
+
+.cLients .row-client div {
+    border: 1px solid rgb(238, 214, 214);
+    padding: 30px;
+    background-color: white;
+}
+
+.cLients img:hover {
+    width: 100%;
+}
+
+/*===================cantect==========*/
+.Contact {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.Contact .Contact-header h1 {
+    font-size: 40px;
+
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.phone i {
+    color: blue !important;
+    font-size: 40px;
+}
+
+.phone h1 {
+    font-size: 15px;
+}
+
+.phone input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.phone .Subject {
+    width: 100%;
+}
+
+.phone textarea {
+    width: 100%;
+}
+
+ .btn {
+    border-radius: 20px;
+    width: 40%;
+}
+
+.containar {
+    display: flex;
+}
+
+/*======== footer============*/
+.footer {
+    background-color: rgb(5, 5, 109);
+}
+
+.Footer {
+    width: 90%;
+    margin: auto;
+    background-color: rgb(5, 5, 109);
+    color: white;
+    padding-top: 15px;
+    margin-top: 10px;
+    
+}
+
+.Footer h1 {
+    font-size: 25px;
+}
+
+.Footer h4 {
+    font-size: 15px;
+}
+
+.Footer i {
+    background-color: blue;
+    border-radius: 50%;
+    padding: 10px;
+    color:white !important;
+}
+
+.email {
+    width: 50%;
+    border-radius: 2px solid black;
+}
+
+.submit {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 35%;
+}
+
+.last {
+    margin: auto;
+    text-align: center;
+
+    color: white;
+
+}
+
+.last h2 {
+    font-size: 15px;
+    padding: 25px;
+}

@@ -1,0 +1,268 @@
+@media(max-width:500px) {
+    .nav-link:hover {
+        width: 55px;
+    }
+
+    .choose-header {
+        width: 80%;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .about-header {
+        width: 80%;
+
+    }
+
+    .about-header h1 {
+        font-size: 35px;
+    }
+
+    .Services-header {
+        width: 80%;
+    }
+
+    .Portfolio-header {
+        width: 80%;
+    }
+
+    button {
+        width: 40%;
+        margin: 5px;
+    }
+
+    .Team-header {
+        width: 80%;
+    }
+
+    .member {
+        width: 45%;
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .phone {
+        text-align: left;
+    }
+
+    .Footer {
+        text-align: center;
+    }
+}
+
+/*==========================================*/
+@media(max-width:280px) {
+    .home {
+        text-align: center;
+        padding-top: 30%;
+    }
+
+    /* .header .navbar .navbar-toggler i{
+        color: white !important;
+        width:5%;
+    }*/
+    .logo {
+        width: 100px;
+    }
+
+    .btn1 {
+        margin-bottom: 20px;
+    }
+
+    .nav-link:hover {
+        width: 55px;
+    }
+
+    .Services {
+        text-align: center;
+    }
+
+    .Services-header {
+        width: 80%;
+    }
+
+    .choose-header {
+        width: 80%;
+    }
+
+    .choose-header h1 {
+        font-size: 20px;
+    }
+
+    .choose .card-body .btn {
+        width: 80%;
+    }
+
+    .Portfolio-header {
+        width: 80%;
+    }
+
+    .Portfolio-header h1 {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 80%;
+        margin: auto;
+    }
+
+    .last h2 {
+        font-size: 10px;
+    }
+ 
+}
+
+@media(max-width:393px) {
+    .home {
+        text-align: center;
+        padding-top: 25%;
+    }
+
+    .Services {
+        text-align: center;
+    }
+
+    .choose-header h1 {
+        font-size: 25px;
+    }
+
+    .btn {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media(max-width:414px) {
+    .home {
+        text-align: center;
+        padding-top: 20%;
+    }
+
+}
+
+@media(max-width:412px) {
+    .home {
+        text-align: center;
+        margin: auto;
+        padding-top: 20%;
+    }
+
+    .Portfolio-header h1 {
+        font-size: 15px;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .Services {
+        text-align: center;
+    }
+
+    .choose-header h1 {
+        font-size: 30px;
+    }
+
+    .Portfolio-header h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:820px) {
+    .home {
+        text-align: center;
+    }
+
+    .nav-link:hover {
+        width: 60px;
+    }
+
+    .phone {
+        text-align: left;
+    }
+
+    .Footer {
+        text-align: center;
+    }
+
+    .btn {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media(max-width:912px) {
+    .home {
+        text-align: center;
+    }
+
+    .phone {
+        text-align: left;
+    }
+
+    .btn {
+        width: 80%;
+        margin: auto;
+    }
+
+    .email {
+        width: 35%;
+
+    }
+
+    .submit {
+
+        width: 20%;
+    }
+}
+
+@media(max-width:540px) {
+    .home {
+        text-align: center;
+    }
+
+    .nav-link:hover {
+        width: 60px;
+    }
+
+    .phone {
+        text-align: left;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .about-header {
+        width: 80%;
+    }
+
+    .Services {
+        text-align: center;
+    }
+
+    .Services-header {
+        width: 80%;
+    }
+
+    .Footer {
+        text-align: center;
+    }
+
+    .choose {
+        text-align: center;
+
+    }
+
+    .choose-header {
+        width: 80%;
+    }
+
+    .Portfolio-header {
+        width: 80%;
+    }
+
+}
